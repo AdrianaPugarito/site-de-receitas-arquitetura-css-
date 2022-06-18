@@ -1,0 +1,44 @@
+/* podemos pegar por tag seria header / para coloca os items (menu do header) no final*/
+.cabecalho{
+  align-items: center;
+  background: #f9f9f9;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+/* pegando por tag seria: header nav ul{} / para colocar o menu lineal, um ao lado do outro*/
+.menu__lista {
+    display: flex;
+}
+
+/* pegando por tag seria: header nav li{} / para tirar o estilo de lista*/
+.menu__item {
+    list-style: none;
+}
+
+/*pegando por tag seria: header nav ul li:last-child a{} / last child e para pegar o ultimo item da lista, neste caso comunidade*/
+.menu__item:last-child .menu__link{
+    margin-right: 0;
+}
+
+/* pegando por tag: header nav ul li a{} /  para modificar cor, espaço, sublineado e de maiuscula para minuscula */
+.menu__link {
+    color: #808080;
+    margin-right: 1.25rem;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+/*pegando por tag: header nav ul li a.ativo{} / para modificar o cor e o item q queremos fique ativo dando uma diferenciada a nosso menu*/
+.menu__link.ativo {
+    color: #333333;
+    font-weight: bold;
+}
+
+/*pegando por tag: header nav ul li a:hover{} / para quando pase o mouse encima dos itens ele tenha um delineado*/
+.menu__link:hover {
+    text-decoration: underline;
+}
+
