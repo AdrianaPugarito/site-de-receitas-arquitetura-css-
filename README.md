@@ -22,4 +22,13 @@ Modelos colocam componentes em um layout e demonstram a estrutura de conteúdo s
 
 Páginas aplicam conteúdo real aos modelos e articulam variações para demonstrar a interface do usuário final e testar a resiliência do sistema de design.
 
-Referencia de pagina: https://vidadeproduto.com.br/atomic-design/
+Referencia da pagina para mais informação: https://vidadeproduto.com.br/atomic-design/
+
+Propriedades shorthand
+
+Definição
+Propriedades shorthand (tradução literal: Propriedades abreviadas) são propriedades de CSS que deixam você setar os valores de outras propriedades de CSS simultaneamente. Usando shorthand property, um desenvolvedor web pode escrever folhas de estilo mais concisas e legíveis,economizando tempo e energia.
+
+A especificação CSS define como shorthand properties, o grupo de propriedades com o mesmo tema. Ex: a propriedade CSS background é uma propriedade shorthand que é capaz de definir o valor de background-color, background-image (en-US), background-repeat (en-US), e background-position. Assim também,como as propriedades comuns e relacionadas a fonte podem ser definidas e usadas com o shorthand font (en-US),e os diferentes margins em volta de um box podem ser definidas com o shorthand margin.
+
+Referencia da pagina para mais informação: https://developer.mozilla.org/pt-BR/docs/Web/CSS/Shorthand_properties 

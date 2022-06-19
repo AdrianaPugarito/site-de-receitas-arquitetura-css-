@@ -1,5 +1,17 @@
-.banner__imagem{
+/*.banner__imagem{
+    background-image: url('../../img/banner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(100vh - 72px);
     width: 100%;
+
+} e uma boa pratica usar as propiedades shorthand*/
+
+.banner__imagem{
+    background: url('../../img/banner.jpg') no-repeat center / cover;
+    height: calc(100vh - 72px);
+    width: 100%;   
 }
 
 .banner__titulo {
