@@ -9,21 +9,21 @@
 } e uma boa pratica usar as propiedades shorthand*/
 
 .banner__imagem{
-    background: url('../../img/banner.jpg') no-repeat center / cover;
-    height: calc(100vh - 72px);
-    width: 100%;   
+  background: url('../../img/banner.jpg') no-repeat center / cover;
+  height: calc(100vh - 72px);
+  width: 100%;   
 }
 
 .banner__titulo {
-    font-family: Pacifico, cursive;
-    color: #fdfdfd;
-    position: absolute;
-    left: 50%;
-    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
-    top: 50%;
-    text-align: center;
-    transform: translate(-50%, -50%);
-    width: 100%;
+  font-family: Pacifico, cursive;
+  color: #fdfdfd;
+  position: absolute;
+  left: 50%;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+  top: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  width: 100%;
 }
 
 .banner {
